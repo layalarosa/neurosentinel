@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials.json
+
+# Local data and artifacts
+data/raw/
+data/private/
+models/
+checkpoints/
+*.pkl
+*.joblib
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
